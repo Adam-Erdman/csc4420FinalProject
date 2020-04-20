@@ -21,8 +21,7 @@ Keep in mind using the pre-built packages when available.
 2. Then compile from master via the following commands:
 
 ```
-git clone https://github.com/s3fs-fuse/s3fs-fuse.git
-cd s3fs-fuse
+
 ./autogen.sh
 ./configure
 make
