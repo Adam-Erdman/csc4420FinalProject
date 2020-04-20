@@ -9,7 +9,8 @@ navigate to where you cloned the program and navigate to standAlone_rc4
 use command "gcc rc4StandAlone.c -o rc4StandAlone.out" to create rc4StandAlone.out
 
 correct usage
-./rc4StandAlone.out inputfile outputfile
+
+* ./rc4StandAlone.out inputfile outputfile
 
 there are no salt options in this implementation or options for encrypt or decrypt, uses the stand rc4 xor to determine what to do.
 
